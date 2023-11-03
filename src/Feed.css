@@ -1,0 +1,85 @@
+/* Feed.css */
+.feed-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.new-feed {
+    font-size: 19px;
+} 
+
+/* Existing CSS styles... */
+
+.input-title {
+    width: 100%;
+    padding: 10px;
+    font-size: 24px; /* Increase the font size for the title */
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .input-content {
+    width: 100%;
+    padding: 10px;
+    font-size: 20px; /* Increase the font size for the content */
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+  }
+  
+  /* Existing CSS styles... */
+  
+
+.post {
+    border: 1px solid #ddd;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.post-header h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.post-header p {
+    margin: 0;
+    color: #888;
+    font-size: 14px;
+}
+
+.post-content {
+margin-top: 10px;
+color: #333;
+}
+
+.post-actions {
+margin-top: 10px;
+display: flex;
+justify-content: flex-end;
+}
+
+.post-actions button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.post-actions button:hover {
+    background-color: #0056b3;
+}
